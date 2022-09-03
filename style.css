@@ -1,0 +1,30 @@
+/* ==========================================================================
+   HungryVovka's style
+   ========================================================================== */
+
+/* Основные стили */
+* {
+	box-sizing: inherit;
+}
+  
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	margin: auto;
+	max-width: 600px;
+	max-height: 600px;
+	padding-top: calc(0.1 * 100%);
+	background-image: url('./img/grass.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Neucha', cursive;
+}
+
+/* Пока что на этом всё! */
