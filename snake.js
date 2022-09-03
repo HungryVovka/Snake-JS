@@ -10,7 +10,7 @@ var ctx = canvas.getContext("2d");
 var width = canvas.width;
 var height = canvas.height;
 
-// Вычисляем ширину и высоту в ячейках
+//----------- Вычисляем ширину и высоту в ячейках -----------//
 var blockSize = 20;
 var widthInBlocks = width / blockSize;
 var heightInBlocks = height / blockSize;
